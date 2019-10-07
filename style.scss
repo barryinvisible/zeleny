@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap');
+// font-family: 'Roboto Slab', serif;
+.container-fluid {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.main-block {
+    padding-bottom: 120px;
+    background-color: #2b231a;
+}
+
+.header {
+    background-color: #2b231a;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo {
+    width: 170px;
+    &img {
+        height: 35px;
+        width: auto;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    &-li {
+        padding: 0 40px;
+        cursor: pointer;
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+.nav-number {
+    width: 170px;
+    cursor: pointer;
+    &:hover {
+        color: #000;
+    }
+}
+
+.slider-block {
+    display: flex;
+    justify-content: flex-end;
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 30px;
+    }
+}
+
+.slider-img {
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.slider {
+    &-social {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 50px;
+        color: #4a523d;
+        & i {
+            padding: 8px 0;
+            cursor: pointer;
+            &:hover {
+                color: #79bd01;
+            }
+        }
+    }
+    &-text {
+        color: #fff;
+        position: absolute;
+        bottom: 150px;
+        left: 100px;
+        &__title {
+            font-size: 56px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            font-size: 23px;
+            font-weight: 300;
+        }
+    }
+}
+
+.slider-slick {
+    width: 86%;
+}
+
+.products {
+    margin-top: -70px;
+    &-items {
+        // display: flex;
+        // flex-wrap: wrap;
+    }
+    &-item {
+        font-family: 'Roboto Slab', serif;
+        color: #fff;
+        position: relative;
+        & img {
+            width: 100%;
+            height: auto;
+            margin-bottom: -15px;
+        }
+        &__title {
+            font-size: 27px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &__text {
+            position: relative;
+            bottom: 90px;
+            left: 40px;
+        }
+        &__article {
+            color: #000;
+        }
+    }
+}
+
+.about {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 80px;
+    &-article {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    &-title {
+        color: #547815;
+        font-size: 27px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.slick-dots {
+    & button {
+        background-color: #4a523d;
+        border: none;
+        border-radius: 50%;
+        // height: 11px;
+        // width: 11px;
+        margin: 30px 0;
+        padding: 6px;
+        &:hover {
+            background-color: #79bd01;
+        }
+    }
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    &-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 60px;
+        &__h2 {
+            padding: 30px 0;
+            font-size: 27px;
+            // color: #2b231a;
+            text-transform: uppercase;
+        }
+    }
+}
+
+#video {
+    height: 100vh;
+}
