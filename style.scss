@@ -68,7 +68,7 @@
     font-family: 'Roboto Slab', serif;
     position: relative;
     & img {
-        width: 100%;
+        width: auto;
         height: auto;
     }
 }
@@ -106,6 +106,7 @@
 }
 
 .slider-slick {
+    height: 550px;
     width: 86%;
 }
 

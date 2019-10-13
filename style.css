@@ -55,7 +55,7 @@
   font-family: 'Roboto Slab', serif;
   position: relative; }
   .slider-img img {
-    width: 100%;
+    width: auto;
     height: auto; }
 
 .slider-social {
@@ -83,6 +83,7 @@
     font-weight: 300; }
 
 .slider-slick {
+  height: 550px;
   width: 86%; }
 
 .products {
